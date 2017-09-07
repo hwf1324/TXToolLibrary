@@ -1,0 +1,16 @@
+# bash-completion
+## 程序定位
+1. bash-completion是一个bash的脚本包。用于扩展bash的自动补全功能。
+2. 这是一款开源、免费的包。适用于bash。
+## 程序简介
+1. bash自带的自动补全功能一般只能补全命令名、文件名之类的。
+2. bash-completion针对许多命令，编写了专门的匹配规则。匹配的内容也不再局限于bash自带的命令名、文件名之类的。
+3. 以unalias命令为例：
+    * 在安装bash-completion之前，如果输入unalias命令，然后按TAB键试图补全参数，bash会把当前路径下的文件名作为参数补上。
+    * 在安装bash-completion之后，输入unalias命令后自动补全参数，就会搜索alias定义的命令别名，用命令别名补全。
+## 获取方式
+1. 如果发行版没有自带这个包，可以通过包管理安装。一般发行版的仓库中都会包含这个包。
+2. bash-completion项目托管于Github之上。可以从Github获取。
+## 包依赖关系
+1. 在Arch库中bash-completion依赖以下包：
+    * bash
