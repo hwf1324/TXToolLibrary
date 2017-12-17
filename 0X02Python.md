@@ -21,5 +21,10 @@ pip是python的包管理工具,最初是独立的程序.但是最新的python官
 
 ## 资料
 
+互联网
+
 * [Python官网](https://www.python.org/)
-* [莫烦Python基础教程](https://morvanzhou.github.io/tutorials/python-basic/basic/)
+* [(莫烦)Python基础教程](https://morvanzhou.github.io/tutorials/python-basic/basic/)
+* [(莫烦)Python线程](https://morvanzhou.github.io/tutorials/python-basic/threading/)
+* [(莫烦)Python进程](https://morvanzhou.github.io/tutorials/python-basic/multiprocessing/)
+* [(莫烦)Python Tkinter](https://morvanzhou.github.io/tutorials/python-basic/tkinter/)(一个简单的图形化窗体程序库)
