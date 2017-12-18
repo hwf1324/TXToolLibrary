@@ -21,10 +21,11 @@ pip是python的包管理工具,最初是独立的程序.但是最新的python官
 
 ## 资料
 
-互联网
+重新造轮子不一定是一件值得提倡的事.计算机领域更多时候需要分工,合作和共享.有现成的可以利用的成果为什么不用呢.
+
+我目前不打算制作Python的教程,推荐查看官方文档和莫烦的系列Python基础教学.
 
 * [Python官网](https://www.python.org/)
 * [(莫烦)Python基础教程](https://morvanzhou.github.io/tutorials/python-basic/basic/)
 * [(莫烦)Python线程](https://morvanzhou.github.io/tutorials/python-basic/threading/)
 * [(莫烦)Python进程](https://morvanzhou.github.io/tutorials/python-basic/multiprocessing/)
-* [(莫烦)Python Tkinter](https://morvanzhou.github.io/tutorials/python-basic/tkinter/)(一个简单的图形化窗体程序库)
