@@ -31,6 +31,8 @@ df=pd.DataFrame([['a',12,4],['b',12,2],['a',5,7]])
 pd.get_dummies(df)
 ```
 
+注:one-hot是一种把枚举类型属性转化成若干个布尔类型(或者0-1类型)属性的方法.转化出的属性个数等于转化前属性的选项个数.
+
 ## 资料
 
 [Pandas官网](http://pandas.pydata.org/)
