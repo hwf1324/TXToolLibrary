@@ -46,7 +46,7 @@ SciPy是一个NumPy的拓展包.同样可以通过pip安装.
 
 包之间的功能重复肯定是存在的,比如NumPy本身也提供了基本的线性代数运算和傅里叶变换.图像处理我们一般用opencv或者pillow.但是这些包至今并存,是因为各有特色.SciPy和NumPy的功能重复还是很少的,而且据说SciPy算傅里叶变换比NumPy快.
 
-PS:SciPy也是一个组织.他们用NumPy,SciPy,IPython,Jupyter,Pandas,SymPy等搭建了一个Python的科学计算开发环境.为了组织名区别,也称这个Python模块为SciPy Library.
+PS:SciPy也是一个组织.他们用NumPy,SciPy,IPython,Jupyter,Pandas,SymPy等搭建了一个Python的科学计算开发环境(或者说工具集).为了区别,称这个组织为SciPy,称那个Python模块为SciPy Library,称这个组织用SciPy Library和其他模块组成的工具集为SciPy ecosystem.
 
 ## 数值运算
 
