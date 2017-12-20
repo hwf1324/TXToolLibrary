@@ -56,6 +56,14 @@ python自带的交互式环境内虽然可以把自己写的脚本当作模块�
 
 除此以外ipython还有许多其他命令,例如用'%pdb'控制是否在异常发生后自动进入pdb.用'%paste'执行剪贴板中的代码,用'%quickref'显示IPython的快速参考,用'%magic'显示所有magic command参考.
 
+## 执行bash命令
+
+以'!'开头,后边直接写bash命令就能执行bash命令.例如:
+
+```ipython
+!ls
+```
+
 ## Jupyter
 
 目前IPython项目专注于做Python交互.原来属于IPython的,和具体编程语言无关的notebook,qtconsole等部分都被逐渐移到了Jupyter.如果需要一个能利用浏览器进行展示的notebook或者一个基于qt的窗体版控制台可以安装基于IPython的Jupyter.
