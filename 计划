@@ -51,3 +51,9 @@ x86_64	Community	uwsgi-plugin-lua51	2.0.15-5	Plugin for Lua support	2017-09-02
 x86_64	Community	python2-numexpr	2.6.2-1	Fast numerical array expression evaluator for Python, NumPy, PyTables, pandas	2017-02-11	
 x86_64	Community	python-numexpr	2.6.2-1	Fast numerical array expression evaluator for Python, NumPy, PyTables, pandas	2017-02-11	
 让python具有lua特性
+
+
+
+curse
+tkinter(直接引用)
+pylint
