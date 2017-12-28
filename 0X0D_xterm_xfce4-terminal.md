@@ -40,7 +40,7 @@ xfce4-terminal --drop-down
 
 详情请参看[官方文档](https://docs.xfce.org/apps/terminal/dropdown).
 
-或者[我的教程]().
+或者[我的教程](https://www.bilibili.com/video/av17715006/).
 
 xfce4-terminal作为xfce4组件中的一员,一般在安装xfce4的时候自动安装.你也可以通过包管理软件单独安装.
 
