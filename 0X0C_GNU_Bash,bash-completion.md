@@ -1,4 +1,4 @@
-# 0X0C GNU Bash
+# 0X0C GNU Bash, bash-completion
 
 ## 简介
 
