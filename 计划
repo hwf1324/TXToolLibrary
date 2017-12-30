@@ -1,8 +1,7 @@
-gnu coreutils
 trash-cli
 shadow (shadow-utils)
-tar,gzip
-linux内核
+tar,gzip,bzip,zip
+linux内核(等开始调用内核的时候才介绍)
 arch和pacman
 ubuntu和dpkg,apt
 
