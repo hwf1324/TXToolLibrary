@@ -4,6 +4,8 @@ tar,gzip,bzip,zip
 linux内核(等开始调用内核的时候才介绍)
 arch和pacman
 ubuntu和dpkg,apt
+vim
+emacs
 
 # 操作系统内核Linux
 1. Linux并不是一个完整的系统。它只是一个实现操作系统基本功能的内核。内核配以一系列其他的库和软件才能成为一个完整的操作系统。事实上，我们经常用Linux来指代一系列由Linux内核和GNU计划软件组成的操作系统。
@@ -61,8 +63,6 @@ x86_64	Community	python-numexpr	2.6.2-1	Fast numerical array expression evaluato
 
 下一步介绍:
 
-curse
-tkinter(直接引用)
 pylint
 
 bash(包括自动补全拓展),说一下可以用Python取代逻辑功能,也可以用Lua取代
@@ -86,7 +86,6 @@ SQL(数据库)
 Jupyter
 JupyterLab
 
-sklearn
 skimage
 
 考虑中:
