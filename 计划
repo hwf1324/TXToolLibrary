@@ -1,5 +1,6 @@
+vim
 util-linux(顺便说一下其依赖的libutil)
-
+systemd
 shadow (shadow-utils)
 tar,gzip,bzip,zip
 linux内核(等开始调用内核的时候才介绍)
@@ -7,6 +8,7 @@ arch和pacman
 ubuntu和dpkg,apt
 vim
 emacs
+clear,tree,pstree,htop
 
 # 操作系统内核Linux
 1. Linux并不是一个完整的系统。它只是一个实现操作系统基本功能的内核。内核配以一系列其他的库和软件才能成为一个完整的操作系统。事实上，我们经常用Linux来指代一系列由Linux内核和GNU计划软件组成的操作系统。
