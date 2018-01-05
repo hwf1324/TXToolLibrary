@@ -14,8 +14,34 @@ procps是一款Linux系统中的进程管理和内存管理工具集.包含一�
 
 ## psmisc
 
+这也是一个用于进程管理的工具集.它提供的命令少一些,常用命令有两个:
 
+`pstree`功能类似`ps`,但是`pstree`是用树形图的形式展示进程之间的关系.
+
+`killall`用于终止进程.比起`kill`有两个好处.第一不需要参数`-9`,第二它是按照进程名(启动进程的命令名)来进行查找,而不是查找ID.
+
+但是需要注意的是killall会把所有同名进程终止,例如:
+
+```shell
+killall lua
+```
+
+会终止掉所有lua虚拟机进程.
+
+psmisc也是一般由Linux发行版默认安装,如果没有安装可以使用包管理软件进行安装.包名为psmisc.
 
 ## htop
 
+htop也是一个进程管理工具.与ps,pstree等不同.htop不是把进程信息打印出来了事,而是会启动一个ncurses写的界面.在这个界面内对进程进行管理,相对方便一些(相当于Windows的任务管理器).
+
+你可以使用包管理软件进行安装,包名就是htop.
+
+启动htop之后.按F1~F10等快捷键就能执行对应的功能.例如切换树状图,给进程排序,给进程传递终止信号等.
+
+你可以全键盘操作htop.但是如果你是在虚拟终端中使用htop,可能遇到快捷键F10被虚拟终端占用,无法用F10退出htop的问题(xterm无此问题).这时有两种解决方法:用快捷键C-c终止htop进程或者用鼠标点击按钮(在虚拟终端中htop支持鼠标点击).
+
 ## 资料
+
+* [procps官网](https://gitlab.com/procps-ng/procps)
+* [psmisc官网](http://psmisc.sourceforge.net/index.html)
+* [htop官网](http://hisham.hm/htop/)

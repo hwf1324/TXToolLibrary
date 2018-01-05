@@ -6,8 +6,8 @@ linux内核(等开始调用内核的时候才介绍)
 arch和pacman
 ubuntu和dpkg,apt
 emacs
-clear,tree,pstree,htop
-procps(ps等命令),psmisc(pstree等命令)
+clear,tree
+apropos,whatis(这俩是查询man-db的独立命令)
 
 开始写第一个关于内核的命令的时候介绍linux内核(以及安装linux-docs)
 
