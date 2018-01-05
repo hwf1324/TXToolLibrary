@@ -24,6 +24,8 @@ which ls
 
 只是一个非常简单的小工具.确实Unix的哲学是KISS原则,确实早期的类Unix系统上的工具都是一个一个单独的小工具.但是现在绝大多数小工具都被收录到了GNU coreutils,shadow或者别的什么工具集里.像这样一个还算常用,但是独立成项目(甚至有独立的软件包)的命令非常少见.
 
+最开始写这篇的时候忘了bash还有内置的whereis命令.个人认为type和whereis命令加起来要比which好用.其实没有必要装which.
+
 ## 资料
 
 * [GNU which官网](https://savannah.gnu.org/projects/which/)
