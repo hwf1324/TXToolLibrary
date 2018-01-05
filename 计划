@@ -62,7 +62,6 @@ x86_64	Community	prosody	1:0.10.r7198+.2fd20f372cb1+-2	Lightweight and extensibl
 x86_64	Community	tarantool	1.7.3.r413-1	Lua application server integrated with a database management system	2017-04-24	
 x86_64	Community	tolua++	1.0.93-2	Tool to integrate C/C++ code with Lua	2015-11-24	
 x86_64	Community	uwsgi-plugin-lua51	2.0.15-5	Plugin for Lua support	2017-09-02
-
 x86_64	Community	python2-numexpr	2.6.2-1	Fast numerical array expression evaluator for Python, NumPy, PyTables, pandas	2017-02-11	
 x86_64	Community	python-numexpr	2.6.2-1	Fast numerical array expression evaluator for Python, NumPy, PyTables, pandas	2017-02-11	
 让python具有lua特性
