@@ -1,5 +1,4 @@
 util-linux(顺便说一下其依赖的libutil)
-shadow (shadow-utils)
 tar,gzip,bzip,zip
 linux内核(等开始调用内核的时候才介绍)
 arch和pacman
