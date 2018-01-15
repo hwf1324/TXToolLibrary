@@ -5,6 +5,7 @@ arch和pacman
 ubuntu和dpkg,apt
 emacs
 clear,tree
+diff
 
 开始写第一个关于内核的命令的时候介绍linux内核(以及安装linux-docs)
 
