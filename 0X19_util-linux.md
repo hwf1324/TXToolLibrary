@@ -8,7 +8,7 @@ util_linux和busybox, GNU Coreutils等类似,是一个Linux系统上的小工具
 
 这个工具集中曾经有也有很多命令,但是目前的处境非常尴尬.它有大量功能和busybox, GNU Coreutils, shadow, systemd等工具集重复,没有自己的特色.而为了降低重复,它在2015年又移除了包括arch, halt, reboot等的一系列命令.
 
-就我用得到的范围来说,目前只有一个命令是util_linux提供,而其GNU Coreutil, shadow, systemd都没有提供的:
+就我用得到的范围来说,目前只有这几个命令是util_linux提供,而其GNU Coreutil, shadow, systemd都没有提供的:
 
 ```shell
 cal
@@ -19,6 +19,8 @@ cal
 ```shell
 cal
 ```
+
+还有mount和umount用于挂载存储器和卸载挂载的存储器.
 
 ## 安装
 
