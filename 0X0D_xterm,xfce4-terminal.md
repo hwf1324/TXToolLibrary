@@ -44,6 +44,10 @@ xfce4-terminal --drop-down
 
 xfce4-terminal作为xfce4组件中的一员,一般在安装xfce4的时候自动安装.你也可以通过包管理软件单独安装.
 
+## 使用鼠标
+
+虚拟终端是支持鼠标的。例如在xfce4-terminal中使用鼠标左键选中一段文字就可以复制这一段文字。使用鼠标中间点击就能把复制的文件粘贴到指定位置。
+
 ## 资料
 
 * [xterm官网](http://invisible-island.net/xterm/)
