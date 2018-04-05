@@ -20,7 +20,7 @@ cal
 cal
 ```
 
-还有mount和umount用于挂载存储器和卸载挂载的存储器.
+还有mount和umount用于挂载存储器和卸载挂载的存储器.设置tty用的setterm也属于这个软件。setterm用于设置终端的显示格式，颜色等。
 
 ## 安装
 
