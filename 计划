@@ -1,10 +1,41 @@
 tar,gzip,bzip,zip
-linux内核(等开始调用内核的时候才介绍)
+linux内核(等开始调用内核的时候才介绍)，启动工具
 arch和pacman
 ubuntu和dpkg,apt
 emacs
 clear,tree
 diff
+
+#Linux拾遗：
+
+linux内核，linux-docs
+clear
+tree
+diff
+
+顺便整理一下收藏，把进程管理，用户管理，系统必须文件管理等内容放到Linux系统中（htop，tree，trash，sudo，su等仍旧不算系统的一部分）
+
+以后要介绍Windows等系统
+
+#归档压缩
+tar，gzip系列
+7zip
+
+#包管理工具和发行版
+
+Ubuntu/Debian，dpkg，apt
+Arch，pacman
+
+#GUI系列：
+
+X11
+桌面系统
+虚拟终端机
+顺便整理一下网站收藏
+
+
+
+
 
 开始写第一个关于内核的命令的时候介绍linux内核(以及安装linux-docs)
 
@@ -41,36 +72,6 @@ boot，各种lib等
 
 未介绍的被依赖包
 * readline
-
-计划后续介绍
-* lua
-x86_64	Community	bam	0.5.0-1	A fast and flexible build system using Lua	2016-06-17	
-x86_64	Community	gambas3-gb-eval-highlight	3.9.2-9	Expression evaluator highlight component	2017-08-04	2017-08-06
-x86_64	Community	haskell-hslua	0.4.1-4	A Lua language interpreter embedding in Haskell	2017-06-23	
-x86_64	Community-Testing	haskell-hslua	0.4.1-5	A Lua language interpreter embedding in Haskell	2017-08-17	
-x86_64	Community	love	0.10.2-1	An open-source 2D game engine which uses the versatile Lua scripting language to create dynamic gaming experiences	2016-11-01	
-x86_64	Community	love08	0.8.0-2	An open-source 2D game engine which uses the versatile Lua scripting language to create dynamic gaming experiences	2015-12-10	
-x86_64	Community	lua-expat	1.3.0-3	SAX XML parser based on the Expat library	2015-05-16	
-x86_64	Community	lua-filesystem	1.6.3-3	File System Library for the Lua Programming Language	2015-05-16	
-x86_64	Community	luajit	2.0.5-1	Just-in-time compiler and drop-in replacement for Lua 5.1	2017-05-06	
-x86_64	Extra	lua-lgi	0.9.1-1	Lua bindings for gnome/gobject using gobject-introspection library	2016-05-29	
-x86_64	Extra	lua-lpeg	1.0.1-1	Pattern-matching library for Lua 5.3	2017-01-30	
-x86_64	Community	lua-sdl2	v2.0.5_6.0-1	Pure C binding of SDL 2.0 for Lua	2017-06-05	
-x86_64	Community	lua-sec	2:0.6-2	Lua bindings for OpenSSL library to provide TLS/SSL communication.	2017-04-24	
-x86_64	Community	lua-socket	20160311-1	Networking support library for the Lua language	2016-03-11	
-x86_64	Community	lua-sql-mysql	2.3.0-7	MySQL module for Lua	2017-04-24	
-x86_64	Community	lua-sql-postgres	2.3.0-7	PostgreSQL module for Lua	2017-04-24	
-x86_64	Community	lua-sql-sqlite	2.3.0-7	SQLite module for Lua	2017-04-24	
-x86_64	Community	lua-zlib	1:1.1-1	Simple streaming interface to zlib for Lua.	2017-01-30	
-x86_64	Community	premake	4.3-4	A simple build configuration and project generation tool using lua	2014-07-05	
-x86_64	Community	premake3	3.7-3	A simple build configuration and project generation tool using lua	2014-07-05	
-x86_64	Community	prosody	1:0.10.r7198+.2fd20f372cb1+-2	Lightweight and extensible Jabber/XMPP server written in Lua (development build from trunk-branch)	2017-04-24	
-x86_64	Community	tarantool	1.7.3.r413-1	Lua application server integrated with a database management system	2017-04-24	
-x86_64	Community	tolua++	1.0.93-2	Tool to integrate C/C++ code with Lua	2015-11-24	
-x86_64	Community	uwsgi-plugin-lua51	2.0.15-5	Plugin for Lua support	2017-09-02
-x86_64	Community	python2-numexpr	2.6.2-1	Fast numerical array expression evaluator for Python, NumPy, PyTables, pandas	2017-02-11	
-x86_64	Community	python-numexpr	2.6.2-1	Fast numerical array expression evaluator for Python, NumPy, PyTables, pandas	2017-02-11	
-让python具有lua特性
 
 
 下一步介绍:
