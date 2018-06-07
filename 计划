@@ -3,8 +3,14 @@ linux内核(等开始调用内核的时候才介绍)，启动工具
 arch和pacman
 ubuntu和dpkg,apt
 emacs
-clear,tree
+clear（ncurse的，放到讲ncurse的时候介绍）,tree
 diff
+
+还没有介绍的内容：
+sudo
+
+xorg,显卡驱动，sddm、kdm等窗口管理器，桌面环境（kde，xfce等
+https://www.youtube.com/watch?v=P4IV5BYPiPs）
 
 #Linux拾遗：
 
@@ -34,7 +40,7 @@ X11
 顺便整理一下网站收藏
 
 
-
+把Python的库可以考虑分离出去。但是Python，Emacs，Zsh本身都已经是小生态了。
 
 
 开始写第一个关于内核的命令的时候介绍linux内核(以及安装linux-docs)
