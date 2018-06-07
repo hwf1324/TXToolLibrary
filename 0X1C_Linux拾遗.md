@@ -45,6 +45,8 @@ tree luac
 
 其中“luac”是要查看的目录名。
 
+[tree的网址](http://mama.indstate.edu/users/ice/tree/)
+
 ## which
 
 一个用于定位命令的可执行文件位置的工具。使用方法是`which`命令后直接跟要查询的命令名称。例如：
@@ -54,3 +56,5 @@ which man
 ```
 
 这个工具有GNU版本，称为“GNU which”。使用时的命令仍然是`which`。
+
+[GNU which的网址](https://savannah.gnu.org/projects/which/)
