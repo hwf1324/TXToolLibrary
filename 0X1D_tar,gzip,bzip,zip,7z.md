@@ -1,0 +1,126 @@
+# 0X1D tar gzip bzip zip 7z
+
+这一期我们的主题是归档和压缩。在很久以前，归档和压缩是两个文件处理的步骤。归档负责把多个文件打包成一个归档文件，而压缩负责把一个文件压缩成一个更小的压缩文件。但是由于这两个功能经常一起用，所以归档压缩工具出现了相互融合的趋向。而且比较近的工具都兼有归档和压缩的功能。
+
+tar工具是一个比较早出现的，最初仅仅用来归档的工具。而gzip和bzip是比较早的压缩工具。那时候标准的归档压缩流程是先用tar归档然后用gzip或者bzip压缩。
+
+而zip和7z功能集成度就更高一点，我们用它们可以直接完成归档压缩的工作。
+
+## gzip
+
+gzip是GNU计划的软件之一。
+
+gzip是压缩工具要压缩一个名为`test`的文件使用命令：
+
+```bash
+gzip test
+```
+
+自动生成压缩文件`test.gz`，并且默认删除原文件。
+
+要想解压使用:
+
+```bash
+gzip -d test.gz
+```
+
+同样默认删除压缩文件。
+
+[**gzip官网**](https://www.gnu.org/software/gzip/)
+
+## bzip2
+
+bzip是另一种压缩工具使用方法类似gzip。现在普遍使用的版本是bzip2，所以命令也应该这样写：
+
+```bash
+bzip2 test
+bzip2 -d test.bz2
+```
+
+据说使用bzip2的压缩比gzip低一点。（压缩率是压缩后大小比压缩前，所以压缩率是越小越好。）
+
+[**bzip2官网**](http://www.bzip.org/)
+
+## tar
+
+tar也是GNU计划的一部分。它是一个归档工具。我们使用命令：
+
+```bash
+tar -cf test.tar myfile1 myfile2 myfile3
+```
+
+来创建归档。
+
+其中`-cf`是控制参数。`c`表示新建一个文件作为归档文件（不删除原有文件），`f`表示要给生成的归档文件命名（在解压缩的时候表示要被处理的归档文件的名称）。
+
+控制参数之后第一个名称`test.tar`表示生成的归档文件的名称。后边几个是要归档的文件名（也可以是目录名）。
+
+要解除归档使用：
+
+```bash
+tar -xf test.tar
+```
+
+注意这些文件释放后会和test.tar处于同级目录之下。也就是说在同一个目录之下反复执行同样的tar归档压缩命令并不会造成目录深度越来越深。（但是现在很多压缩工具为了方便，在你把几个分开的文件归档压缩的时候会自动创建一层文件夹。）
+
+如果要在终端显示归档和解除归档的过程，需要使用控制参数`v`。
+
+另外tar可以调用gzip或者bzip2生成归档压缩文件，也可以直接解除归档压缩。
+
+例如：
+
+```bash
+tar -cvzf test.tar.gz myfile1 myfile2
+tar -xvzf test.tar.gz
+```
+
+其中的`z`表示用gzip处理。换成`j`就是用bzip2处理。
+
+另外也可以不解压但是查看压缩包目录，比如：
+
+```bash
+tar -tvf test.tar.gz
+```
+
+其中`t`表示列出所有压缩包内文件结构。
+
+[**tar官网**](https://www.gnu.org/software/tar/)
+
+## zip和info-zip
+
+zip是一种压缩文件格式。而info-zip是Linux上一种处理zip压缩文件的具体软件实现。
+
+info-zip提供了两个常用命令，分别用来压缩和解压。
+
+```bash
+zip -r test.zip mydir
+unzip test.zip
+```
+
+第一条命令中`test.zip`是压缩后的文件名，`mydir`是要压缩的目录名称。`-r`表示递归，当被压缩的是一个目录的时候，这个选项会把目录中的所有内容打包进来。如果不带`-r`目录内的内容就不会被压缩进去，所以一般要带`-r`。
+
+[**zip**](https://en.wikipedia.org/wiki/Zip_(file_format))
+
+[**Info-Zip**](http://infozip.sourceforge.net/Zip.html)
+
+## 7z,7-zip以及其他
+
+7z和zip一样是一种压缩文件格式。根据stackoverflow上的一篇测试，7z的压缩率比zip低得多。但是根据我的经验来说，7z的低压缩率也意味着压缩和解压时间特别长（机器不太好的情况下）。所以我一般使用zip多一点。毕竟现在硬盘不太贵，对于不太大的文件来说网络和USB传输速度也都还可以忍受。
+
+而7-zip是一款拥有GUI界面的Windows平台压缩工具，它支持压缩和解压7z格式文件，也支持其他文件格式比如zip，gzip，bzip，tar等。而且也支持解压RAR等非主流压缩文件。
+
+而7za.exe是7-zip的命令行版本。还有人为7-zip做了类Unix（Linux，BSD等）的版本，名为p7zip。
+
+[**7z**](https://www.7-zip.org/7z.html)
+[**7-zip**](https://www.7-zip.org/)
+[**p7zip**](http://p7zip.sourceforge.net/)
+
+## 关于费用和开放性
+
+以上软件都是免费开源软件。zip和7z压缩格式也都是开放性的。
+
+## 选择建议
+
+我的建议是如果你要打包压缩包，首选zip格式。如果追求低压缩率可以考虑7z，出于习惯，接受程度，历史原因等方面的考虑可以使用tar，gzip，bzip2系列。不要选用RAR之类的格式。
+
+工具方面，Windows平台首选7-zip。免费，没有广告，功能足够，体积非常小。Linux平台使用Info-Zip多一点，你也可以选择p7zip或者别的工具。但是很多发行版中tar,gzip,bzip2,info-zip都是默认自带的工具。

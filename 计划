@@ -1,23 +1,16 @@
 tar,gzip,bzip,zip
-linux内核(等开始调用内核的时候才介绍)，启动工具
+启动工具grub
 arch和pacman
 ubuntu和dpkg,apt
 emacs
-clear（ncurse的，放到讲ncurse的时候介绍）,tree
-diff
+clear（ncurse的，放到讲ncurse的时候介绍）
+diff流式编辑器
 
 还没有介绍的内容：
 sudo
 
 xorg,显卡驱动，sddm、kdm等窗口管理器，桌面环境（kde，xfce等
 https://www.youtube.com/watch?v=P4IV5BYPiPs）
-
-#Linux拾遗：
-
-linux内核，linux-docs
-clear
-tree
-diff
 
 顺便整理一下收藏，把进程管理，用户管理，系统必须文件管理等内容放到Linux系统中（htop，tree，trash，sudo，su等仍旧不算系统的一部分）
 
