@@ -1,4 +1,4 @@
-# 0X06 matplotlib
+# 0X04 matplotlib
 
 matplotlib是一个Python的模块,用于绘制图表,展示数据.
 
@@ -37,6 +37,6 @@ plt.show(block=False)
 
 ## 资料
 
-[matplotlib官网](https://matplotlib.org/)
-[matplotlib官方教程](https://matplotlib.org/tutorials/index.html)
-[(莫烦) matplotlib教程](https://morvanzhou.github.io/tutorials/data-manipulation/plt/)
+* [matplotlib官网](https://matplotlib.org/)
+* [matplotlib官方教程](https://matplotlib.org/tutorials/index.html)
+* [(莫烦) matplotlib教程](https://morvanzhou.github.io/tutorials/data-manipulation/plt/)

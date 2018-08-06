@@ -8,16 +8,6 @@ curses library是一个在字符终端下编写交互界面的工具包.它可�
 
 ncurses主要是一个被其他程序依赖的库。不过它也提供了几个简单的命令。例如常用的`clear`清空屏幕命令就是ncurses提供的。
 
-## Python的curses模块
-
-想用Python编写curses式的命令行程序可以使用Python的curses接口。目前它已经被集成到了Python当中.使用这个命令导入即可:
-
-```python
-import curses
-```
-
-但是请注意,这个库适用于POSIX标准系统.而Windows并不完全符合POSIX标准(其实微软对外宣传是符合的,为了接一些对POSIX标准有要求的生意).所以在Windows上可能会找不到这个包.
-
 ### 使用效果
 
 Python官网上有一个用curses写的[康威的生命游戏](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)的[demo](https://github.com/python/cpython/blob/3.6/Tools/demo/life.py).
@@ -31,11 +21,3 @@ Python官网上有一个用curses写的[康威的生命游戏](https://en.wikipe
 ## 资料
 
 [ncurses](http://invisible-island.net/ncurses/ncurses.html)
-
-[Python官方文档1](https://docs.python.org/3/library/curses.html)
-
-[Python官方文档2](https://docs.python.org/3/library/curses.ascii.html)
-
-[Python官方文档3](https://docs.python.org/3/library/curses.panel.html)
-
-[Python官方提供的教程](https://docs.python.org/3/howto/curses.html)
