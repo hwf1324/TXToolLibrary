@@ -1,4 +1,4 @@
-tar,gzip,bzip,zip
+
 启动工具grub
 arch和pacman
 ubuntu和dpkg,apt
@@ -105,3 +105,5 @@ skimage
 
 pyqt (pyqt5)
 opencv-python
+pytorch
+sympy
