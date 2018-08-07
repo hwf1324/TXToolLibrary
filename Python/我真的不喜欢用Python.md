@@ -20,7 +20,7 @@ Scipy.org提供了一套基于Python的数学工具，其中有一个模块就�
 * SciPy 提供一些科学计算中常用的函数，常数，算法。
 * Pandas 数据结构，电子表格读写，数据分析。
 * matplotlib 数据可视化，2D绘图。
-* SymPy 符号计算（之前的文章中尚未介绍到）。
+* SymPy 符号运算。
 * IPython 更好用的Python交互式编程环境。
 
 ## sklearn
