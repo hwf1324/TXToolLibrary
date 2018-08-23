@@ -26,6 +26,10 @@ Python是一门脚本语言.其编译器(解释器)由C语言编写,和C语言�
 sudo apt install python3
 ```
 
+## 关于交互式编程环境
+
+Python的编译器（Python Interpreter）自带交互式编程模式（Interactive Mode）。详见官方说明书。
+
 ## 资料
 
 重新造轮子不一定是一件值得提倡的事.计算机领域更多时候需要分工,合作和共享.有现成的可以利用的成果为什么不用呢.
@@ -33,6 +37,8 @@ sudo apt install python3
 我目前不打算制作Python的教程,推荐查看官方文档,莫烦的系列Python基础教学以及菜鸟教程中Python相关篇章.
 
 * [Python官网](https://www.python.org/)
+* [Python交互式编程环境1](https://docs.python.org/3/tutorial/interpreter.html#interactive-mode)
+* [Python交互式编程环境2](https://docs.python.org/3/tutorial/appendix.html#tut-interac)
 * [(莫烦) Python基础教程](https://morvanzhou.github.io/tutorials/python-basic/basic/)
 * [(莫烦) Python线程](https://morvanzhou.github.io/tutorials/python-basic/threading/)
 * [(莫烦) Python进程](https://morvanzhou.github.io/tutorials/python-basic/multiprocessing/)

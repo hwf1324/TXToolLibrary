@@ -1,4 +1,4 @@
-# 0X0B Pylint
+# 0006 Pylint
 
 ## 简介
 
@@ -65,3 +65,12 @@ plt.cm.get_cmap('Paired')
 ## 资料
 
 [Pylint官网](https://www.pylint.org/)
+
+## 信息总结
+
+* 功能定位：Python语法和代码风格检查工具。
+* 平台支持：Linux,Mac,Windows
+* 开源
+* 拓展性：未知
+* 费用：免费
+* 意见：或许代码风格检测不是一个特别必要的功能。但是为了代码可读性的考虑还是建议使用。

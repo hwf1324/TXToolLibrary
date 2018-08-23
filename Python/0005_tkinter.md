@@ -1,4 +1,4 @@
-# 0X08 tkinter
+# 0005 tkinter
 
 ## 简介
 
@@ -7,6 +7,8 @@ tkinter也是一个被集成到Python中的模块(可能老版本没有).
 这是一个轻量级的图形化窗体程序工具库.虽然比不上pyqt功能丰富但是胜在简单,轻巧和Python内置.如果要写一个简单的交互窗体,用这个工具库还是很方便的.
 
 注意这个工具库的功能需要图形化界面环境才能正常使用.
+
+tkinter和curses不同。curses是一个帮助用户更方便地写CLI程序的接口，而tkinter是用于写GUI的接口。就算curses写出来的程序功能再像GUI程序，由于并不需要X11等图形接口的支持，仍然不能算一般意义上的GUI程序。
 
 ## 关于窗体绘制
 
@@ -21,3 +23,12 @@ tkinter的窗体定义方式还是比较传统的调用函数增加控件,通过
 [官方文档](https://docs.python.org/3/library/tk.html)
 
 [(莫烦) tkinter教程](https://morvanzhou.github.io/tutorials/python-basic/tkinter/)
+
+## 信息汇总
+
+* 功能定位：Python的轻量级GUI接口。
+* 平台支持：Linux,Mac,Windows
+* 开源
+* 拓展性：未知
+* 费用：免费
+* 意见：如果要写的窗体很简单可以试一试tkinter。如果要写的窗体比较复杂还是选择更加完备的接口和工具比较好。
