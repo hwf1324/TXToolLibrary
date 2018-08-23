@@ -1,8 +1,8 @@
-# 0X01 Python pip
+# 0X01 Python
 
 Python是一门脚本语言.其编译器(解释器)由C语言编写,和C语言有很好的交互性.对比别的依靠解释器或者运行时环境等虚拟机执行的语言,与其说Python是一个增强版的Lua,不如说它是一个简化版的Java.
 
-作为一个比较年轻的语言,在语法设计上,固然要比古老的C/C++这类语言更加优秀(尤其是Python3).但是,很多人,很多项目使用Python的原因无非两点:上手快,模块多.做数学,算法或者最近很热门的数据挖掘,机器学习等方面工作的人可能会比较青睐这门语言.原因就是它屏蔽了很多底层细节,省心.另外就是--模块多.
+作为一个比较年轻的语言,在语法设计上,固然要比古老的C/C++这类语言更加优秀(尤其是Python3).但是,很多人,很多项目使用Python的原因主要是:上手快，省心,模块多.另外做数学,算法或者最近很热门的数据挖掘,机器学习等方面工作的人可能会比较青睐这门语言.原因就是它屏蔽了很多底层细节,省心.
 
 个人感觉Python目前的状况很有点像早些年的Java.Java今日的处境可能也是Python以后所要面对的.据说Python最初并不是要设计成一门又大又全的语言,但是它拥有良好的扩展性.随着使用人数和应用领域的增多.Python的各种包各种模块越来越多几乎是不可避免的.很多跨平台跨语言的框架比如OpenCV,QT,dlib等也纷纷给出了Python版本的封装.官方的新版本也不断吸收着各种扩展模块,比如新进被纳入标准库中的tkinetr(一个简单的编写图形化窗体的库).这些固然是好事,但是好事也有另一面--随着扩展的增多,Python变得越来越臃肿了.最直观的感受就是安装完必须的开发环境所需要的磁盘空间越来越多.不过现在就担心Python的解释器变得和Java的JRE一样大还有点早.
 
@@ -12,20 +12,37 @@ Python是一门脚本语言.其编译器(解释器)由C语言编写,和C语言�
 
 新旧的交替总是需要一点时间.但是我希望Python2不要变成国内计算机课上的VC++6.0.
 
-## 组成
+## 组成和获取
 
 * python
-* pip (有时候需要独立安装pip)
 
-pip是python的包管理工具,最初是独立的程序.但是最新的python官方版本中已经把pip囊括在内.
+一般直接从Python官网下载官方的发行版就可以。官方发行版还集成了许多实用工具和常用的库。也可以尝试自己从源码编译Python。
+
+在Linux系统中可以使用包管理轻松安装Python。由于存在互不兼容的两个版本，在安装和使用的时候需要区分`python2`和`python3`。
+
+例如在Ubuntu上安装Python3：
+
+```shell
+sudo apt install python3
+```
 
 ## 资料
 
 重新造轮子不一定是一件值得提倡的事.计算机领域更多时候需要分工,合作和共享.有现成的可以利用的成果为什么不用呢.
 
-我目前不打算制作Python的教程,推荐查看官方文档和莫烦的系列Python基础教学.
+我目前不打算制作Python的教程,推荐查看官方文档,莫烦的系列Python基础教学以及菜鸟教程中Python相关篇章.
 
 * [Python官网](https://www.python.org/)
 * [(莫烦) Python基础教程](https://morvanzhou.github.io/tutorials/python-basic/basic/)
 * [(莫烦) Python线程](https://morvanzhou.github.io/tutorials/python-basic/threading/)
 * [(莫烦) Python进程](https://morvanzhou.github.io/tutorials/python-basic/multiprocessing/)
+* [菜鸟教程 Python3教程](http://www.runoob.com/python3/python3-tutorial.html)
+
+## 信息汇总
+
+* 功能定位：Python语言解释器
+* 平台支持：Linux,Mac,Windows
+* 开源
+* 拓展性：编写C语言模块，Python模块等进行拓展。
+* 费用：免费
+* 意见：Python常年盘踞在TIOBE前五。就算自己不写Python也难免用到别人写的Python程序。而且数据科学领域使用Python编写的工具非常丰富。可以用Python来替代MATLAB或者Excel。
