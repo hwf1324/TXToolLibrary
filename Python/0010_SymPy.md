@@ -1,4 +1,4 @@
-# 0X0A SymPy
+# 0009 SymPy
 
 ## 简述
 
@@ -75,3 +75,12 @@ integrate(x**2)
 ## 资料
 
 [SymPy官网](http://www.sympy.org/en/index.html)
+
+## 信息汇总
+
+* 功能定位：符号运算工具库。
+* 平台支持：Linux,Mac,Windows
+* 开源
+* 拓展性：未知
+* 费用：免费
+* 意见：一个符号运算工具包。可能相对于数值运算来说，需求量小一些。

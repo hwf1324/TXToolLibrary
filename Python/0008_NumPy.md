@@ -1,4 +1,4 @@
-# 0X02 NumPy SciPy
+# 0008 NumPy
 
 NumPy是一个Python的包.主要提供了张量数据结构,不用循环得批量数据数值运算(比原版更快),以及一些配套的统计,或者数值分析工具函数.它也是很多其他数据分析相关的包的基础.
 
@@ -36,18 +36,6 @@ NumPy提供了矩阵这个类,并且提供了相关的运算.准确来说,NumPy�
 
 由于本人比较关注函数式编程.在这里特别提一句.Python中自带的函数式编程工具有可能和NumPy的张量不兼容.好在NumPy提供了自己的函数式编程工具.具体可以查看NumPy参考手册中的"Functional programming"这章.
 
-## SciPy
-
-SciPy是一个NumPy的拓展包.同样可以通过pip安装(模块名是scipy).
-
-它是包含了常见的数学和物理常数,特殊函数以及一个算法合集.在算法合集中又很多数学问题的现成解决算法.
-
-具体来说,你可以用SciPy计算函数积分数值解(scipy.integrate),求解最优化问题(scipy.optimize),插值运算(scipy.interpolate),计算傅里叶变换(scipy.fftpack),滤波(scipy.signal),矩阵分解(scipy.linalg)等等.
-
-包之间的功能重复肯定是存在的,比如NumPy本身也提供了基本的线性代数运算和傅里叶变换.图像处理我们一般用opencv或者pillow.但是这些包至今并存,是因为各有特色.SciPy和NumPy的功能重复还是很少的,而且据说SciPy算傅里叶变换比NumPy快.
-
-PS:SciPy也是一个组织.他们用NumPy,SciPy,IPython,Jupyter,Pandas,SymPy等搭建了一个Python的科学计算开发环境(或者说工具集).为了区别,称这个组织为SciPy,称那个Python模块为SciPy Library,称这个组织用SciPy Library和其他模块组成的工具集为SciPy ecosystem.
-
 ## 数值运算
 
 首先介绍一组概念--"数值运算"和"符号运算".
@@ -60,10 +48,16 @@ PS:SciPy也是一个组织.他们用NumPy,SciPy,IPython,Jupyter,Pandas,SymPy等�
 
 ## 参考资料
 
-[NumPy官网](http://www.numpy.org/)
-[NumPy官方入门教程](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html)
-[NumPy参考手册](https://docs.scipy.org/doc/numpy-dev/reference/index.html)
-[(莫烦) Numpy教程](https://morvanzhou.github.io/tutorials/data-manipulation/np-pd/)
-[SciPy官网](https://scipy.org/index.html)
-[SciPy Library](https://scipy.org/scipylib/index.html)
-[SciPy参考手册](https://docs.scipy.org/doc/scipy/reference/)
+* [NumPy官网](http://www.numpy.org/)
+* [NumPy官方入门教程](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html)
+* [NumPy参考手册](https://docs.scipy.org/doc/numpy-dev/reference/index.html)
+* [(莫烦) Numpy教程](https://morvanzhou.github.io/tutorials/data-manipulation/np-pd/)
+
+## 信息汇总
+
+* 功能定位：矩阵运算工具。
+* 平台支持：Linux,Mac,Windows
+* 开源
+* 拓展性：未知
+* 费用：免费
+* 意见：科学数据处理方面基础性的工具库。
