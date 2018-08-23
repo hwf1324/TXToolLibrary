@@ -1,4 +1,4 @@
-# 0X05 IPython
+# 0007 IPython
 
 ## 简介
 
@@ -63,3 +63,12 @@ python自带的交互式环境内虽然可以把自己写的脚本当作模块�
 ## Jupyter
 
 目前IPython项目专注于做Python交互.原来属于IPython的,和具体编程语言无关的notebook,qtconsole等部分都被逐渐移到了Jupyter.如果需要一个能利用浏览器进行展示的notebook或者一个基于qt的窗体版控制台可以安装基于IPython的Jupyter.
+
+## 信息汇总
+
+* 功能定位：比原版Python Interpreter Interactive Mode功能更丰富的交互式编程环境。
+* 平台支持：Linux,Mac,Windows
+* 开源
+* 拓展性：未知
+* 费用：免费
+* 意见：功能比原版Python的交互式编程环境更多。在使用numpy，sympy等包的时候能极大提升使用体验。但是启动速度感觉不如原板快。另外IPython是Jupyter等项目的基础。
