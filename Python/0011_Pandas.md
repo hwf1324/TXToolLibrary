@@ -1,4 +1,4 @@
-# 0X03 Pandas
+# 0011 Pandas
 
 Pandas一般被当作一个轻量级的数据库工具使用.利用它可以轻松完成结构化数据(一般是表格)的读写,合并,切分,索引,排序,填充缺失等处理.虽然它也自带了一些绘图之类的额外功能,但是基本不用.因为实际当中它经常和NumPy,SciPy,matplotlib等模块配合使用.
 
@@ -38,3 +38,12 @@ pd.get_dummies(df)
 [Pandas官网](http://pandas.pydata.org/)
 [Pandas教程](http://pandas.pydata.org/pandas-docs/stable/cookbook.html)
 [(莫烦) Pandas教程](https://morvanzhou.github.io/tutorials/data-manipulation/np-pd/)
+
+## 信息汇总
+
+* 功能定位：数据处理工具。（对接和替换数据库，电子表格。）
+* 平台支持：Linux,Mac,Windows
+* 开源
+* 拓展性：未知
+* 费用：免费
+* 意见：简单使用可以作为导入csv，excel等电子表格的接口。进一步也可以用Pandas做数据处理代替Office电子表格的部分批量数据处理功能。此外还有一些附加的功能可以挖掘。
