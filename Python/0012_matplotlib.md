@@ -1,4 +1,4 @@
-# 0X04 matplotlib
+# 0012 matplotlib
 
 matplotlib是一个Python的模块,用于绘制图表,展示数据.
 
@@ -40,3 +40,12 @@ plt.show(block=False)
 * [matplotlib官网](https://matplotlib.org/)
 * [matplotlib官方教程](https://matplotlib.org/tutorials/index.html)
 * [(莫烦) matplotlib教程](https://morvanzhou.github.io/tutorials/data-manipulation/plt/)
+
+## 信息汇总
+
+* 功能定位：数据展示，数学绘图，绘图工具库。
+* 平台支持： Linux,Mac,Windows
+* 开源
+* 拓展性：未知
+* 费用：免费
+* 意见：Python常用的绘图工具库，数据展示工具库。
