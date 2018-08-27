@@ -31,3 +31,12 @@ sklearn中直接打包了一些常用数据集.在使用的时候直接调用skl
 * [sklearn官网](http://scikit-learn.org/stable/)
 
 * [(莫烦) sklearn教程](https://morvanzhou.github.io/tutorials/machine-learning/sklearn/)
+
+## 信息汇总
+
+* 功能定位：机器学习工具包。
+* 平台支持：Linux,Mac,Windows
+* 开源
+* 拓展性：未知
+* 费用：免费
+* 意见：机器学习方面的工具包。包括辅助性的工具，一些简单的典型的机器学习模型和一些经典数据集。
