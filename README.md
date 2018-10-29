@@ -2,7 +2,7 @@
 
 TaiXuan's Tool Library. A list of tools that TaiXuan use everyday.
 
-## Update Log
+此项目中文名为“太玄的软件推荐”。
 
 ## 内容上的改变
 
@@ -28,3 +28,9 @@ TaiXuan's Tool Library. A list of tools that TaiXuan use everyday.
 1. 使用体验：是否用户友好，运行速度，界面美观，指令人性化。（侧重于好不好用。）
 1. 开放性：是否允许用户或者第三方进行扩展，哪些内容和功能允许扩展，是否开放源码。
 1. 费用：是否免费，收费方式，价格。
+
+## Update Log
+
+2018.10.29
+
+变更项目的中文名称。
