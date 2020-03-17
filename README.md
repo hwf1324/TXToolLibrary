@@ -2,7 +2,7 @@
 
 TaiXuan's Tool Library. A list of tools that TaiXuan use everyday.
 
-此项目中文名为“太玄的软件推荐”。
+此项目中文名为“太玄的软件推荐”。不过经过考虑，更名为“钻石讲堂”，重新发布。
 
 ## 内容上的改变
 
